@@ -108,7 +108,8 @@
   #exits .shead .rule { background: rgba(237,234,224,0.2); }
   .egrid { display: grid; grid-template-columns: repeat(4,1fr); gap: 0; border-top: 1px solid rgba(237,234,224,0.25); }
   .ecard { padding: 2rem 1.4rem 2rem 0; border-right: 1px solid rgba(237,234,224,0.15); padding-right: 1.4rem; text-decoration: none; color: inherit; }
-  .ecard:last-child { border-right: none; }
+  .ecard { border-bottom: 1px solid rgba(237,234,224,0.15); }
+  .ecard:nth-child(4n), .ecard:last-child { border-right: none; }
   .ecard .es { font-family: 'Space Grotesk', sans-serif; font-size: 10.5px; letter-spacing: 0.14em; text-transform: uppercase; color: rgba(237,234,224,0.5); font-weight: 600; }
   .ecard .en { font-family: 'Space Grotesk', sans-serif; font-size: 21px; font-weight: 500; color: #fff; margin: 1rem 0 0.9rem; letter-spacing: -0.01em; }
   .ecard .ep { font-family: 'Space Grotesk', sans-serif; display: inline-block; font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; border: 1px solid rgba(237,234,224,0.3); padding: 4px 10px; color: var(--cream); margin-bottom: 1rem; }
@@ -244,16 +245,12 @@
   <div class="wrap">
     <div class="shead"><span class="num">02</span><span class="t">Portfolio &amp; LP Positions</span><span class="rule"></span></div>
     <div class="pgrid">
-      <a class="pcard" href="https://www.gustobuono.com/" target="_blank" rel="noopener"><div class="ps">Food &amp; Beverage</div><div class="pn">Gusto Buono</div><div class="pg">Italy</div><div class="pd">Authentic Italian food products and Glidini sweet treats. In 850+ stores globally.</div><div class="pa">↗</div></a>
-      <a class="pcard" href="https://www.ilsole24ore.com/art/frankly-catena-italiana-bubble-tea-scommette-citta-universitarie-e-apre-4-nuovi-locali-AD3ZipIB?refresh_ce=1
-" target="_blank" rel="noopener"><div class="ps">F&amp;B · Retail</div><div class="pn">Frankly</div><div class="pg">Italy / Global</div><div class="pd">Milan-based premium bubble tea &amp; coffee concept with global expansion ambitions.</div><div class="pa">↗</div></a>
-      <a class="pcard" href="https://alfonsimilano.com" target="_blank" rel="noopener"><div class="ps">Luxury Goods</div><div class="pn">Alfonsi Milano</div><div class="pg">Italy</div><div class="pd">Luxury handmade footwear from Napoli, crafted for men and women.</div><div class="pa">↗</div></a>
       <a class="pcard" href="https://www.thedrinksbusiness.com/2022/03/happy-drinks-co-smashes-crowdfunding-target-with-6-million-raised/" target="_blank" rel="noopener"><div class="ps">Beverages</div><div class="pn">Happy Drinks</div><div class="pg">Global</div><div class="pd">Disrupting beverages with zero-calorie options and bold product innovation.</div><div class="pa">↗</div></a>
       <a class="pcard" href="https://www.arion.run" target="_blank" rel="noopener"><div class="ps">SportsTech</div><div class="pn">Arion</div><div class="pg">Europe</div><div class="pd">Smart insoles helping runners optimise performance and prevent injury in real time.</div><div class="pa">↗</div></a>
       <a class="pcard" href="https://mazalinnovativeai.it" target="_blank" rel="noopener"><div class="ps">Fintech / AI</div><div class="pn">Mazal Innovative AI</div><div class="pg">Italy</div><div class="pd">Investment holding focused on AI, fintech, blockchain and cybersecurity startups.</div><div class="pa">↗</div></a>
       <a class="pcard" href="https://spin.vc" target="_blank" rel="noopener"><div class="ps">Climate Tech VC</div><div class="pn">Spin Ventures</div><div class="pg">Europe</div><div class="pd">Seed-stage B2B climate-tech fund: supply chain, circularity and sustainable innovation.</div><div class="pa">↗</div></a>
       <a class="pcard" href="https://www.bev.global" target="_blank" rel="noopener"><div class="ps">M&amp;A Advisory</div><div class="pn">BEV Growth</div><div class="pg">Global</div><div class="pd">M&amp;A and strategic advisory. Founded 2010, the origin of the BEV Group.</div><div class="pa">↗</div></a>
-      <a class="pcard" href="https://www.bev.global" target="_blank" rel="noopener"><div class="ps">Financial Advisory</div><div class="pn">BEV Capital</div><div class="pg">Global</div><div class="pd">Global placement agent focused on family offices. LP relationships across Europe, GCC and Asia.</div><div class="pa">↗</div></a>
+      <a class="pcard" href="https://www.bev.global" target="_blank" rel="noopener"><div class="ps">Capital Introductions</div><div class="pn">BEV Capital</div><div class="pg">Global</div><div class="pd">Introduces specialist private-market managers to family offices across Europe, GCC and Asia.</div><div class="pa">↗</div></a>
     </div>
   </div>
 </section>
@@ -266,6 +263,9 @@
       <a class="ecard" href="https://attachment.news.eu.nasdaq.com/a9f9173493f7283c5f5c96b31ae03f640" target="_blank" rel="noopener"><div class="es">Functional Foods</div><div class="en">Bezzt of Nature</div><div class="ep">Acquired · 2020</div><div class="ed">Acquired by Fuud (Nasdaq Nordic listed) in 2020.</div></a>
       <a class="ecard" href="https://www.crunchbase.com/organization/jools-drinks" target="_blank" rel="noopener"><div class="es">Health Beverages</div><div class="en">Jools</div><div class="ep">Exited</div><div class="ed">Vitamin-enriched health drink. Co-founded and exited after launch.</div></a>
       <a class="ecard" href="https://www.wilbe.com/home" target="_blank" rel="noopener"><div class="es">Venture Platform</div><div class="en">Wilbe</div><div class="ep">Exited</div><div class="ed">Venture platform for scientist-founders. Co-founded, built and exited.</div></a>
+      <a class="ecard" href="https://www.gustobuono.com/" target="_blank" rel="noopener"><div class="es">Food &amp; Beverage</div><div class="en">Glidini</div><div class="ep">Exited</div><div class="ed">Italian sweet treats brand, sold in 850+ stores globally.</div></a>
+      <a class="ecard" href="https://www.ilsole24ore.com/art/frankly-catena-italiana-bubble-tea-scommette-citta-universitarie-e-apre-4-nuovi-locali-AD3ZipIB?refresh_ce=1" target="_blank" rel="noopener"><div class="es">F&amp;B · Retail</div><div class="en">Frankly</div><div class="ep">Exited</div><div class="ed">Milan-based premium bubble tea &amp; coffee concept.</div></a>
+      <a class="ecard" href="https://alfonsimilano.com" target="_blank" rel="noopener"><div class="es">Luxury Goods</div><div class="en">Alfonsi Milano</div><div class="ep">Exited</div><div class="ed">Luxury handmade footwear from Napoli, for men and women.</div></a>
     </div>
   </div>
 </section>
