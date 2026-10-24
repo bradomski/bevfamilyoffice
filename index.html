@@ -156,9 +156,10 @@
   }
   @media (max-width: 560px) {
     .hero-foot { flex-wrap: wrap; gap: 1.5rem; }
-    .hero-foot .cell { flex: 0 0 40%; }
+    .hero-foot .cell, .hero-foot .cell:first-child { flex: 0 0 45%; padding-left: 0; border-left: none; }
     .pgrid, .egrid, .statsband .wrap { grid-template-columns: 1fr; }
     .statsband .s { border-left: none; padding-left: 0; }
+    .ecard { border-right: none !important; }
     .focus { grid-template-columns: 1fr; }
     .founder { grid-template-columns: 90px 1fr; gap: 1.2rem; }
     .founder img { width: 90px; height: 112px; }
@@ -299,13 +300,13 @@
       <img src="assets/bev-white.png" alt="BEV Family Office">
       <div class="ftag">Family Office &amp; Principal Investor</div>
     </div>
-    <nav class="fnav">
+    <div class="fnav">
       <a href="#story" style="text-align: center">Practice</a>
       <a href="#portfolio" style="text-align: center">Portfolio</a>
       <a href="#exits" style="text-align: center">Exits</a>
       <a href="#news">News</a>
       <a href="mailto:info@bevfamilyoffice.com">Contact</a>
-    </nav>
+    </div>
   </div>
   <div class="fbase">
     <span>© 2026 BEV Family Office</span>
